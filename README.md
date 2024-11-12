@@ -27,7 +27,8 @@
 ### Search results:
 ![Recipe Details Screenshot](screenshots/search.png)
 
-
+### Wish list:
+![Recipe Details Screenshot](screenshots/wish.png)
 
 
 # Recipe Searcher
@@ -44,6 +45,16 @@
 - **HTML, CSS, JavaScript**
 - **Spooncular API**
 
+## Screenshots
+### Home Page:
+![Home Page Screenshot](screenshots/home.png)
+
+### Search results:
+![Recipe Details Screenshot](screenshots/search.png)
+
+### Wish list:
+![Recipe Details Screenshot](screenshots/favs.png)
+
 
 # Weather App
 
@@ -59,3 +70,13 @@
 - **HTML, CSS, JavaScript**
 - **Weather API**
 
+
+## Screenshots
+### Search Page:
+![Home Page Screenshot](screenshots/search.png)
+
+### Search results:
+![Recipe Details Screenshot](screenshots/found.png)
+
+### Current location:
+![Recipe Details Screenshot](screenshots/cur.png)
