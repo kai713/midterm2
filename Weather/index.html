@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="weather-app">
+    <div class="header">
+        <input type="text" id="city-input" placeholder="Search for your preferred city..." autocomplete="off" />
+        <button id="location-btn">Current Location</button>
+        <button id="unit-toggle">°C/°F</button>
+    </div>
+
+    <div id="suggestions"></div>
+
+    <div class="wrapper">
+        <div class="current-weather">
+            <h2 id="city-name">City Name</h2>
+            <p id="country-name">Country</p> <!-- Добавлено название страны -->
+            <p id="current-time">Time: --:--</p>
+            <div class="temperature">
+                <span id="current-temp">--°</span>
+                <span id="weather-icon"></span>
+            </div>
+            <p id="weather-desc">Description</p>
+            <div class="weather-details">
+                <p>Humidity: <span id="humidity">--%</span></p>
+                <p>Wind Speed: <span id="wind-speed">-- km/h</span></p>
+                <p>Pressure: <span id="pressure">-- hPa</span></p>
+            </div>
+        </div>
+
+        <div class="forecast">
+            <div class="five-day-forecast">
+                <h3>5 Days Forecast:</h3>
+                <div id="forecast-container"></div>
+                <span id="weather-icon-five-day-forecast"></span>
+            </div>
+            <div class="hourly-forecast">
+                <h3>Hourly Forecast:</h3>
+                <div id="hourly-container"></div>
+                <span id="weather-icon-five-hourly-forecast"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="Index.js"></script>
+</body>
+</html>

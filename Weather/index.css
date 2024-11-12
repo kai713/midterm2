@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.weather-app {
+    width: 90%;
+    max-width: 800px;
+    background: #3a3a3a;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+button {
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.current-weather {
+    text-align: center;
+    background: #444;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#city-name {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#country-name {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #ccc;
+}
+
+.temperature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#forecast-container, #hourly-container {
+    display: flex;
+    gap: 10px;
+}
+
+.forecast-item, .hourly-item {
+    background: #555;
+    padding: 5px;
+    margin-left: 33px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 100px;
+}
+
+#suggestions {
+    background: #444;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    display: none;
+}
+
+#suggestions div {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#suggestions div:hover {
+    background: #555;
+}
+
+.five-day-forecast {
+    border-radius: 15px;
+    background: #444;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hourly-forecast {
+    border-radius: 15px;
+    background: #444;
+    align-items: center;
+    text-align: center;
+}
