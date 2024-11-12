@@ -8,7 +8,7 @@
 
 # Zona Prototype
 
-**Zona Prototype** is a web application designed to offer users an interactive platform to search for movies, view detailed information about them, and save their favorites to a wish list. The app fetches data from The Movie Database (TMDb) API to provide an up-to-date and rich movie browsing experience.
+**Zona Prototype** is a web application designed to offer users an interactive platform to search for movies, view detailed information about them, and save their favorites to a wish list. The app fetches data from The Movie Database (TMDb) API to provide an up-to-date and rich movie browsing experience. Inspired by site zona (https://w140.zona.plus/).
 
 ## Features
 - **Search Bar**: Search for movies by typing in keywords. Results are displayed dynamically if the search input is longer than two characters.
@@ -19,6 +19,15 @@
 ## Technologies Used
 - **HTML, CSS, JavaScript**
 - **The Movie Database (TMDb) API**
+
+## Screenshots
+### Home Page:
+![Home Page Screenshot](screenshots/home.png)
+
+### Search results:
+![Recipe Details Screenshot](screenshots/search.png)
+
+
 
 
 # Recipe Searcher
