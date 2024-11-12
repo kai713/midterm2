@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72e502fc-4d30-41c4-ac50-966b2d2d70ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Kino/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kino/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kino/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeFood/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeFood/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RecipeFood/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kino/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Kino/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RecipeFood/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/RecipeFood/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +73,7 @@
       <workItem from="1731160553396" duration="8909000" />
       <workItem from="1731232283129" duration="8896000" />
       <workItem from="1731315883469" duration="331000" />
+      <workItem from="1731432025470" duration="5293000" />
     </task>
     <servers />
   </component>

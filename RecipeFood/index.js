@@ -25,6 +25,7 @@ const apiKey = '7a31f7c14b8846c69c5a2faf401ee203';
 
 //random Recipes Section
 const threeRandomRecipes = document.querySelector('.recommended-recipes-cards');
+const threeRandomRecipesInner = document.querySelector('.recommended-recipes-card');
 
 //getting random recipes
 async function fetchThreeRandomRecipes() {
@@ -78,6 +79,7 @@ async function fetchFavs() {
         recipesContainer.innerHTML = '';
         recipesContainer.style.display = 'grid';
         recipeSectionDetailsShow.style.display = 'none';
+        threeRandomRecipesInner.style.display = 'none';
         threeRandomRecipes.style.display = 'none';
 
         for (const id of favsArr) {
@@ -126,6 +128,7 @@ async function fetchRecipes(query) {
 function displayRecipes(recipes) {
     recipesContainer.innerHTML = '';
     recipesContainer.style.display = 'grid';
+    threeRandomRecipesInner.style.display= 'none';
 
     recipes.forEach(recipe => {
         const recipeCard = document.createElement('div');
@@ -147,6 +150,7 @@ async function showRecipeDetails(id) {
     favsButton.addEventListener('click', () => addToFavs(id));
 
     threeRandomRecipes.style.display = 'none';
+    threeRandomRecipesInner.style.display = 'none';
 
     try {
         const response = await fetch(`https://api.spoonacular.com/recipes/${id}/information?includeNutrition=true&apiKey=${apiKey}`);
@@ -188,4 +192,5 @@ function resetView() {
     recipesContainer.style.display = 'none';
     recipeSectionDetailsShow.style.display = 'none';
     threeRandomRecipes.style.display = 'block';
+    threeRandomRecipesInner.style.display = 'block'
 }

@@ -164,6 +164,7 @@ async function fetchFavorites() {
     try {
         console.log("Fetching films for IDs:", arrOfWishList);
 
+
         const requests = arrOfWishList.map(async (filmId) => {
             const response = await fetch(`https://api.themoviedb.org/3/movie/${filmId}?api_key=${apiKey}`);
             const data = await response.json();
@@ -202,6 +203,7 @@ function showFavourites(favourites) {
         return;
     }
 
+    favouritesSection.innerHTML = '';
     filmSection.style.display = 'none';
     foundFilms.innerHTML = '';
     foundFilms.style.display = 'none';
