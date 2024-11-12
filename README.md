@@ -22,13 +22,13 @@
 
 ## Screenshots
 ### Home Page:
-![Home Page Screenshot](screenshots/home.png)
+![Home Page Screenshot](screenshots/kino/home.png)
 
 ### Search results:
-![Recipe Details Screenshot](screenshots/search.png)
+![Recipe Details Screenshot](screenshots/kino/search.png)
 
 ### Wish list:
-![Recipe Details Screenshot](screenshots/wish.png)
+![Recipe Details Screenshot](screenshots/kino/wish.png)
 
 
 # Recipe Searcher
@@ -47,13 +47,13 @@
 
 ## Screenshots
 ### Home Page:
-![Home Page Screenshot](screenshots/home.png)
+![Home Page Screenshot](screenshots/recipe/home.png)
 
 ### Search results:
-![Recipe Details Screenshot](screenshots/search.png)
+![Recipe Details Screenshot](screenshots/recipe/search.png)
 
 ### Wish list:
-![Recipe Details Screenshot](screenshots/favs.png)
+![Recipe Details Screenshot](screenshots/recipe/favs.png)
 
 
 # Weather App
@@ -73,10 +73,10 @@
 
 ## Screenshots
 ### Search Page:
-![Home Page Screenshot](screenshots/search.png)
+![Home Page Screenshot](screenshots/weather/search.png)
 
 ### Search results:
-![Recipe Details Screenshot](screenshots/found.png)
+![Recipe Details Screenshot](screenshots/weather/found.png)
 
 ### Current location:
-![Recipe Details Screenshot](screenshots/cur.png)
+![Recipe Details Screenshot](screenshots/weather/cur.png)
